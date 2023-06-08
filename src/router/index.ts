@@ -5,6 +5,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: LoginPage },
+    { path: '/login', component: LoginPage },
     { path: '/loveflower', component: LoveFlower },
   ],
 })
